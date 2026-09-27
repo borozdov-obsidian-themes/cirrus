@@ -1,0 +1,17 @@
+{
+  "name": "borozdov-cirrus",
+  "private": true,
+  "description": "A soft daylight notebook on a pale sky: bone-white cards with 32px corners, black pill buttons and one iris-blue stroke.",
+  "license": "MIT",
+  "scripts": {
+    "fonts": "python3 scripts/embed-fonts.py",
+    "lint": "stylelint theme.css",
+    "build": "node scripts/build.mjs",
+    "screenshots": "python3 scripts/screenshots.py"
+  },
+  "devDependencies": {
+    "lucide-static": "^1.47.0",
+    "stylelint": "^17.0.0",
+    "stylelint-config-obsidianmd": "^0.1.0"
+  }
+}
